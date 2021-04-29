@@ -1,0 +1,12 @@
+let number = 6;
+let popoxakan = true;
+for (let i = 2; i < number / 2; i++) {
+  if (number % i === 0) {
+    popoxakan = false;
+  }
+}
+if (popoxakan) {
+  console.log("yes");
+} else {
+  console.log("no");
+}
